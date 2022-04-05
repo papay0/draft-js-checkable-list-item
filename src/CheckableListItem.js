@@ -40,6 +40,7 @@ export default class CheckableListItem extends Component<Props> {
           suppressContentEditableWarning
         >
           <input type='checkbox' checked={checked} onChange={onChangeChecked} />
+          Test
         </div>
         <div className='checkable-list-item-block__text'>
           <EditorBlock {...this.props} />
